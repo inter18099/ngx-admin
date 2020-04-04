@@ -13,6 +13,136 @@ export const MENU_ITEMS: NbMenuItem[] = [
     link: '/pages/iot-dashboard',
   },
   {
+    title: '管理',
+    group: true,
+  },
+  {
+    title: '商品',
+    icon: 'layout-outline',
+    children: [
+      {
+        title: '目录管理',
+        link: '/pages/layout/stepper',
+      },
+      {
+        title: '商品管理',
+        link: '/pages/layout/list',
+      },
+    ],
+  },
+  {
+    title: '订单',
+    icon: 'layout-outline',
+    children: [
+      {
+        title: '订单列表',
+        link: '/pages/layout/stepper',
+      },
+      {
+        title: '支付',
+        link: '/pages/layout/stepper',
+      },
+    ],
+  },
+  {
+    title: '库存',
+    icon: 'layout-outline',
+    children: [
+      {
+        title: '库存管理',
+        link: '/pages/layout/stepper',
+      },
+      {
+        title: '支付',
+        link: '/pages/layout/stepper',
+      },
+    ],
+  },
+  {
+    title: '内容',
+    icon: 'layout-outline',
+    children: [
+      {
+        title: '内容管理',
+        link: '/pages/layout/stepper',
+      },
+      {
+        title: '广告管理',
+        link: '/pages/layout/stepper',
+      },
+    ],
+  },
+  {
+    title: '客户',
+    icon: 'layout-outline',
+    children: [
+      {
+        title: '客户管理',
+        link: '/pages/layout/stepper',
+      },
+      {
+        title: '反馈管理',
+        link: '/pages/layout/stepper',
+      },
+      {
+        title: '订阅消息管理',
+        link: '/pages/layout/stepper',
+      },
+      {
+        title: '会员资格',
+        link: '/pages/layout/stepper',
+      },
+    ],
+  },
+  {
+    title: '系统',
+    icon: 'layout-outline',
+    children: [
+      {
+        title: '安全管理',
+        link: '/pages/layout/stepper',
+      },
+      {
+        title: '系统属性管理',
+        link: '/pages/layout/stepper',
+      },
+      {
+        title: '运输与区域',
+        link: '/pages/layout/stepper',
+      },
+      {
+        title: '支付管理',
+        link: '/pages/layout/stepper',
+      },
+    ],
+  },
+  {
+    title: '报表',
+    icon: 'layout-outline',
+    children: [
+      {
+        title: '用户注册统计',
+        link: '/pages/layout/stepper',
+      },
+      {
+        title: '低库存汇总',
+        link: '/pages/layout/stepper',
+      },
+      {
+        title: '缺货订单',
+        link: '/pages/layout/stepper',
+      },
+      {
+        title: '订单汇总',
+        link: '/pages/layout/stepper',
+      },
+      {
+        title: '退换货',
+        link: '/pages/layout/stepper',
+      },
+    ],
+  },
+  {
     title: 'FEATURES',
     group: true,
   },
